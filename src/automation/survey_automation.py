@@ -12,12 +12,12 @@ from enum import Enum
 import json
 import traceback
 
-from .browser_manager import BrowserManager
-from .proxy_manager import ProxyManager
-from .captcha_solver import CaptchaSolver
-from .platform_handlers import get_platform_handler, BasePlatformHandler
-from .survey_extractor import SurveyExtractor, SurveyQuestion, QuestionType
-from .ai_response_generator import AIResponseGenerator
+from automation.browser_manager import BrowserManager
+from automation.proxy_manager import ProxyManager
+from automation.captcha_solver import CaptchaSolver
+from automation.platform_handlers import get_platform_handler, BasePlatformHandler
+from automation.survey_extractor import SurveyExtractor, SurveyQuestion, QuestionType
+from automation.ai_response_generator import AIResponseGenerator
 
 logger = logging.getLogger(__name__)
 
