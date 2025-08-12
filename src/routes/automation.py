@@ -8,7 +8,7 @@ import asyncio
 import logging
 from typing import Dict, Any
 
-from src.automation.survey_automation import SurveyAutomation
+from automation.survey_automation import SurveyAutomation
 
 logger = logging.getLogger(__name__)
 
