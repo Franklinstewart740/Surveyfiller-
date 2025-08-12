@@ -10,7 +10,7 @@ import re
 from typing import Dict, Any, List, Optional, Union
 import openai
 import os
-from .survey_extractor import SurveyQuestion, QuestionType
+from automation.survey_extractor import SurveyQuestion, QuestionType
 
 logger = logging.getLogger(__name__)
 
