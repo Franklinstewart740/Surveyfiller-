@@ -7,8 +7,8 @@ import asyncio
 import logging
 from typing import Dict, Any, Optional, List
 from abc import ABC, abstractmethod
-from .browser_manager import BrowserManager
-from .captcha_solver import CaptchaSolver
+from automation.browser_manager import BrowserManager
+from automation.captcha_solver import CaptchaSolver
 
 logger = logging.getLogger(__name__)
 
